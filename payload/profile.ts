@@ -1,7 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
 import image from '../asset/resume_standing_img.png';
 
@@ -30,11 +29,6 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
   ],
-  notice: {
-    // title:
-    //   "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
-    // icon: faBell,
-  },
 };
 
 export default profile;
