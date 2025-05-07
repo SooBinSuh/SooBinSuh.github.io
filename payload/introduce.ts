@@ -5,12 +5,11 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '안녕하세요, iOS Native와 React Native를 기반으로 다양한 플랫폼에서 사용자 경험을 만들어온 개발자 서수빈입니다.',
+    '전기차 충전 플랫폼의 초기 개발자로 참여해 React Native 기반 MVP를 신속히 출시하고, 이후 PNC(Plug and Charge) 기능 등 고도화된 기능을 iOS 네이티브로 안정적으로 전환하며 전반적인 앱 개발을 주도했습니다. ',
+    '이후 새로운 회사에 합류해 팀 단위의 협업 환경을 경험했고, GitHub 기반 브랜치 전략과 CI/CD를 적용한 개발 프로세스를 익혔습니다. 또한 React를 활용한 관리자 페이지 및 웹 서비스 개발에도 참여하며, 모바일 중심의 경험을 웹 프론트엔드까지 확장했습니다.',
+    '모바일과 웹 모두를 이해하는 개발자로서, 다양한 사용자 접점에서 일관된 경험을 설계하고 구현하는 데 강점을 가지고 있으며, 주어진 문제에 책임감을 갖고 완성도 있게 마무리하는 개발자가 되고자 합니다.',
   ],
-  sign: 'Tux',
-  // sign: packageJson.author.name,
-  // latestUpdated: '2019-07-24',
   latestUpdated: lastestUpdatedAt,
 };
 

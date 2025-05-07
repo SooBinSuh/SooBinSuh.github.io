@@ -11,7 +11,6 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '서수빈',
-    // small: '(Tux)',
   },
   contact: [
     {
