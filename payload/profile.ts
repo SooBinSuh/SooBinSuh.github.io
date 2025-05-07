@@ -3,7 +3,7 @@ import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+import image from '../asset/resume_standing_img.png';
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,13 +11,13 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '서수빈',
+    // small: '(Tux)',
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'soobsdev@gmail.com',
+      link: 'mailto:soobsdev@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -26,18 +26,14 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      link: 'https://github.com/uyu423/resume-nextjs',
+      link: 'https://github.com/SooBinSuh',
       icon: faGithub,
-    },
-    {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
     },
   ],
   notice: {
-    title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
-    icon: faBell,
+    // title:
+    //   "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+    // icon: faBell,
   },
 };
 
