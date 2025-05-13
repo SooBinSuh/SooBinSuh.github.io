@@ -4,6 +4,45 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '냉장고를 부탁해',
+      startedAt: '2025-01',
+      endedAt: '2025-04',
+      where: '개인 프로젝트',
+      descriptions: [
+        {
+          content: '냉장고 속의 남은 재료 관리 및 레시피 저장 서비스',
+        },
+        {
+          content: 'NextJS framework를 사용하여 웹 서비스 개발',
+        },
+        {
+          content: '재사용을 고려한 공통 컴포넌트 모듈화 개발',
+        },
+        {
+          content: 'recipe/[recipeId] 서버 컴포넌트 사용',
+        },
+        {
+          content: 'IntersectionObserver와 Infinite Query를 사용한 무한스크롤 구현',
+        },
+        {
+          content: 'git actions를 사용한 CI/CD 구축',
+        },
+        {
+          content: '링크',
+          href: 'http://13.208.208.252/',
+        },
+        {
+          content: '사용기술',
+          descriptions: [
+            { content: 'Next.js' },
+            { content: 'Tailwind CSS' },
+            { content: 'Tanstack Query' },
+            { content: 'github actions' },
+          ],
+        },
+      ],
+    },
+    {
       title: '생활알람 창업',
       startedAt: '2020-11',
       endedAt: '2021-10',
