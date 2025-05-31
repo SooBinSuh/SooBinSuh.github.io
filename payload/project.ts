@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '냉장고를 부탁해',
+      title: 'MyRecipe',
       startedAt: '2025-01',
       endedAt: '2025-04',
       where: '개인 프로젝트',
@@ -19,17 +19,17 @@ const project: IProject.Payload = {
           content: '재사용을 고려한 공통 컴포넌트 모듈화 개발',
         },
         {
-          content: 'recipe/[recipeId] 서버 컴포넌트 사용',
+          content: 'Route Handler를 사용한 CORS 에러 해결',
         },
         {
-          content: 'IntersectionObserver와 Infinite Query를 사용한 무한스크롤 구현',
+          content: 'recipe/[recipeId] 서버 컴포넌트 사용',
         },
         {
           content: 'git actions를 사용한 CI/CD 구축',
         },
         {
           content: '링크',
-          href: 'http://13.208.208.252/',
+          href: 'https://fridgepal.life/',
         },
         {
           content: '사용기술',
