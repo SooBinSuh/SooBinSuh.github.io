@@ -4,7 +4,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'MyRecipe',
+      title: 'FridgePal',
       startedAt: '2025-01',
       endedAt: '2025-04',
       where: '개인 프로젝트',
