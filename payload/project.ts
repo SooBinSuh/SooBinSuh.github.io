@@ -6,26 +6,26 @@ const project: IProject.Payload = {
     {
       title: 'FridgePal',
       startedAt: '2025-01',
-      endedAt: '2025-04',
+      // endedAt: '2025-04',
       where: '개인 프로젝트',
       descriptions: [
         {
-          content: '냉장고 속의 남은 재료 관리 및 레시피 저장 서비스',
+          content: 'NextJS 기반 재료 관리 및 나만의 레시피 저장 서비스',
         },
         {
-          content: 'NextJS framework를 사용하여 웹 서비스 개발',
-        },
-        {
-          content: '재사용을 고려한 공통 컴포넌트 모듈화 개발',
+          content: '공통 컴포넌트 모듈화 개발(레시피_작성_모듈)',
         },
         {
           content: 'Route Handler를 사용한 CORS 에러 해결',
         },
         {
-          content: 'recipe/[recipeId] 서버 컴포넌트 사용',
+          content: 'HTTP only Cookie를 사용한 Google 로그인 구현',
         },
         {
-          content: 'git actions를 사용한 CI/CD 구축',
+          content: 'Server Component, Server Actions를 사용한 상세페이지 및 설정 페이지',
+        },
+        {
+          content: 'git actions를 사용한 도커 이미지 CI/CD 구축(Github->ECR->ECS)',
         },
         {
           content: '링크',
@@ -37,6 +37,7 @@ const project: IProject.Payload = {
             { content: 'Next.js' },
             { content: 'Tailwind CSS' },
             { content: 'Tanstack Query' },
+            { content: 'React Hook Form' },
             { content: 'github actions' },
           ],
         },
