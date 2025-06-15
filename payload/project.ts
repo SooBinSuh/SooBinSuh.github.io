@@ -19,7 +19,7 @@ const project: IProject.Payload = {
           content: 'Route Handler를 사용한 CORS 에러 해결',
         },
         {
-          content: 'HTTP only Cookie를 사용한 Google 로그인 구현',
+          content: 'HTTP only Cookie를 사용한 Google 자동 로그인/갱신 구현',
         },
         {
           content: 'Server Component, Server Actions를 사용한 상세페이지 및 설정 페이지',
