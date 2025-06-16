@@ -44,7 +44,7 @@ const project: IProject.Payload = {
       ],
     },
     {
-      title: '생활알람 창업',
+      title: '생활알람 출시',
       startedAt: '2020-11',
       endedAt: '2021-10',
       where: '4인 창업',
