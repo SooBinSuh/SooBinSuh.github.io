@@ -4,9 +4,8 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'FridgePal',
+      title: '레시피 및 재료 등록 및 관리 서비스(FridgePal)',
       startedAt: '2025-01',
-      // endedAt: '2025-04',
       where: '개인 프로젝트',
       descriptions: [
         {
